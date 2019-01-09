@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>godict - a cloud based platform to keep encrypted diaries</title>
         <meta name="description" content="münhasır is a cloud based platform that enables users to write and keep military class encrypted diaries."/>
-        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css'>
-        <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/summernote/0.8.3/summernote.css">
+        <link rel='stylesheet prefetch' href='/bower_components/bootstrap/dist/css/bootstrap.min.css'>
+        <link rel="stylesheet" type="text/css" href="/bower_components/font-awesome/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="/bower_components/summernote/dist/summernote.css">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-lg-2 col-sm-0 col-md-0 col-xs-0"></div>
                 <div class="col-lg-8 col-sm-12 col-md-12 col-xs-12 text-center">
-                    <h1>Technokrat project</i>.</h1>
+                    <h1>Technokrat project.</h1>
                 </div>
                 <div class="col-lg-2 col-sm-0 col-md-0 col-xs-0"></div>
             </div>
@@ -352,12 +352,12 @@
                 <router-link v-if="token === ''" class="btn btn-warning" :to="{name: 'login'}">Login</router-link>
             </div>
         </template>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.3.1/vue-router.min.js'></script>
-        <script src="https://cdn.jsdelivr.net/vue.resource/1.2.1/vue-resource.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.min.js"></script>
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src='/bower_components/vue/dist/vue.min.js'></script>
+        <script src='/bower_components/vue-router/dist/vue-router.min.js'></script>
+        <script src="/bower_components/vue-resource/dist/vue-resource.min.js"></script>
+        <script type="text/javascript" src="/bower_components/summernote/dist/summernote.min.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
